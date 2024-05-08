@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class Student extends Component {
+export class Students extends Component {
   render() {
     return (
         <div className='w-screen h-screen bg-gray-100 font-sans flex justify-center items-center flex-col'>
@@ -15,4 +15,4 @@ export class Student extends Component {
   }
 }
 
-export default Student
+export default Students

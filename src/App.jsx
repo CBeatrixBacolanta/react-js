@@ -5,7 +5,7 @@ import Sidebar from '../src/components/Sidebar.jsx';
 import Footer from '../src/components/Footer.jsx';
 import Dashboard from "./pages/Dashboard.jsx";
 import Admin from './pages/Admin.jsx';
-import Student from './pages/Student.jsx';
+import Students from './pages/Students.jsx';
 
 export default function App() {
   return (
@@ -16,7 +16,7 @@ export default function App() {
             <Routes>
               <Route exact path="/dashboard" element={<Dashboard />} />
               <Route exact path="/admin" element={<Admin />} />
-              <Route exact path="/student" element={<Student />} />
+              <Route exact path="/students" element={<Students />} />
             </Routes>
           <Footer />
       </div>     

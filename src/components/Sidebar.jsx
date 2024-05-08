@@ -10,7 +10,7 @@ function Sidebar() {
         const sideBarLinks = new Map([
             ['Dashboard', '/dashboard'],
             ['Admin', '/admin'],
-            ['Student', '/student'],
+            ['Students', '/students'],
         ]);
 
         return (
